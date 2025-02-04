@@ -1,15 +1,16 @@
 # Lesson54-Shop_Backend
 
-24.12.2024-00:31
+24.12.2024-01:01
 
 ## Commands schema on VScode:
-python -m venv venv
-source venv/Scripts/activate
-pip install django
-python.exe -m pip install --upgrade pip
-django-admin startproject shop_17_proj .
-py manage.py startapp products
-pip freeze > requirements.txt
+pip install djangorestframework
+pip install Pillow
+py manage.py makemigrations 
+py manage.py migrate
+py manage.py runserver
+pip install django-cors-headers
+py manage.py runserver
+
 
 ## Virtual Environment
 python -m venv venv
