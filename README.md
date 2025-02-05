@@ -1,11 +1,19 @@
 # Lesson54-Shop_Backend
 
-27.12.2024-00:32
+27.12.2024-03:12
 
 ## Commands schema on VScode:
-pip install djangorestframework-simplejwt
-py manage.py migrate
-py manage.py createsuperuser
+Now when you get a token it will show you:
+{
+  "token_type": "access",
+  "exp": 1770334044,
+  "iat": 1738798044,
+  "jti": "06fa9d0a534a403ab05caaf5a352b8cb",
+  "user_id": 1,
+  "username": "cij",
+  "is_admin": true
+}
+
 
 ## Virtual Environment
 python -m venv venv
