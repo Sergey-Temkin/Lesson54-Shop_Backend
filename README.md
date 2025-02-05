@@ -1,16 +1,11 @@
 # Lesson54-Shop_Backend
 
-24.12.2024-01:01
+27.12.2024-00:32
 
 ## Commands schema on VScode:
-pip install djangorestframework
-pip install Pillow
-py manage.py makemigrations 
+pip install djangorestframework-simplejwt
 py manage.py migrate
-py manage.py runserver
-pip install django-cors-headers
-py manage.py runserver
-
+py manage.py createsuperuser
 
 ## Virtual Environment
 python -m venv venv
@@ -26,9 +21,9 @@ django-admin startproject (Name of project)  .  (Don't forget space and dot at t
 py manage.py startapp (Name of folder)
 py manage.py runserver
 
-## Admin:
-py manage.py runserver
+## Admin(Superuser):
 py manage.py createsuperuser
+py manage.py runserver
 
 ## Migration to Database:
 py manage.py makemigrations  
@@ -90,3 +85,5 @@ DELETE VENV FILE!!!
 ## Remove last commit on GIT
 git reset HEAD~1
 git push -f origin main
+
+~/OneDrive/Computer_Science/001-Code/001-Jhon-Bryce/000-GitHub/Lesson54-Shop_Backend
