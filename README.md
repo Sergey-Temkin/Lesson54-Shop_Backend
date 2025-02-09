@@ -1,19 +1,9 @@
 # Lesson54-Shop_Backend
 
-27.12.2024-03:12
+31.12.2024-00:53
 
 ## Commands schema on VScode:
-Now when you get a token it will show you:
-{
-  "token_type": "access",
-  "exp": 1770334044,
-  "iat": 1738798044,
-  "jti": "06fa9d0a534a403ab05caaf5a352b8cb",
-  "user_id": 1,
-  "username": "cij",
-  "is_admin": true
-}
-
+Added render front
 
 ## Virtual Environment
 python -m venv venv
@@ -85,6 +75,7 @@ with connection.cursor() as cursor:
 
 ## Uninstall all packages in a virtual environment
 pip freeze > requirements.txt
+pip uninstall
 pip freeze | xargs pip uninstall -y
 deactivate
 pip cache purge
